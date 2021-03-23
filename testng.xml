@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nuts.com Application Test Automation Test Suite">
+<listeners>
+		<listener class-name="com.nuts.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Nuts.com Application Test Cases">
+		<classes>
+			<class name="com.nuts.qa.TestCases.SearchPageTest"></class>
+			
+		</classes>
+	</test>
+</suite>
